@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84202E4A1CDD6C96004FC2C1 /* dolphins.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84202E491CDD6C96004FC2C1 /* dolphins.ttf */; };
 		845484311CDD6508005AF8A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845484301CDD6508005AF8A9 /* AppDelegate.swift */; };
 		845484331CDD6508005AF8A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845484321CDD6508005AF8A9 /* ViewController.swift */; };
 		845484361CDD6508005AF8A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845484341CDD6508005AF8A9 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84202E491CDD6C96004FC2C1 /* dolphins.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = dolphins.ttf; sourceTree = "<group>"; };
 		8454842D1CDD6508005AF8A9 /* MyOwnApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyOwnApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845484301CDD6508005AF8A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		845484321CDD6508005AF8A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				845484321CDD6508005AF8A9 /* ViewController.swift */,
 				845484341CDD6508005AF8A9 /* Main.storyboard */,
 				845484371CDD6508005AF8A9 /* Assets.xcassets */,
+				84202E491CDD6C96004FC2C1 /* dolphins.ttf */,
 				845484391CDD6508005AF8A9 /* LaunchScreen.storyboard */,
 				8454843C1CDD6508005AF8A9 /* Info.plist */,
 			);
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8454843B1CDD6508005AF8A9 /* LaunchScreen.storyboard in Resources */,
+				84202E4A1CDD6C96004FC2C1 /* dolphins.ttf in Resources */,
 				845484381CDD6508005AF8A9 /* Assets.xcassets in Resources */,
 				845484361CDD6508005AF8A9 /* Main.storyboard in Resources */,
 			);
@@ -253,6 +257,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Saint.MyOwnApp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -264,6 +269,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Saint.MyOwnApp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -286,6 +292,7 @@
 				845484411CDD6508005AF8A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
